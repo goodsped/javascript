@@ -35,4 +35,4 @@ v3 = volumeKubus(p3);
 
 hasil = jumlahVolumeDuaKubus(v1,v2,v3);
 
-alert('hasil dari '+v1+' + '+v2+' adalah : '+hasil);
+alert('hasil dari '+v1+' + '+v2+' + '+v3+' adalah : '+hasil);
