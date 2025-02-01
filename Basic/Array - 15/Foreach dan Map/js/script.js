@@ -10,7 +10,6 @@ for(i = 0; i < angka.length; i++){
     console.log(angka[i])
 }
 
-
 // ini loop foreach
 console.log('\nLop Foreach')
 angka.forEach(function(e){
@@ -35,4 +34,3 @@ angka.sort(function(a, b){
     return a-b;
 });
 console.log(angka.join(' - '));
-

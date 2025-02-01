@@ -28,30 +28,36 @@ var a = ['Albert', 'Alfa', 'Clementino'];
 // console.log(a.join(', '))
 
 // 2. push
+console.log('\npush\n')
 a.push('Duncan', 'Ned');
 console.log(a.join(', '))
 
 // 3. pop
+console.log('\npop\n')
 a.pop();
 a.pop();
 console.log(a.join(', '))
 
 // 4. unshift
+console.log('\nunshift\n')
 a.unshift('Ned');
 console.log(a.join(', '))
 
 // 5. shift
+console.log('\nshift\n')
 a.shift('Ned');
 console.log(a.join(', '))
 
 
 // 6. splice
 // splice(indexAwal;, mauDihapusBerapa, elemenBaru1, elemenBaru2, dst..)
+console.log('\nsplice\n')
 a.splice(0,3,'Ned','Arya', 'Brandon', 'Jhon', 'Rob');
 console.log(a.join(', '))
 
 // 7. slice
 // slice(awal, akhir)
+console.log('\nslice\n')
 var arr2 = a.slice(0,4);
 console.log(arr2.join(', '));
 
