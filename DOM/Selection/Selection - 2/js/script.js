@@ -25,4 +25,10 @@ const paraf = document.querySelectorAll('p');
 
 paraf[1].style.backgroundColor = 'coral';
 
+const sectionB = document.getElementById('b');
+
+const paraf4 = sectionB.querySelector('p');
+
+paraf4.style.backgroundColor = 'whitesmoke';
+
 

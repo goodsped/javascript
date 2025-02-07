@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan DOM</title>
+  <style>
+    html, body{
+      height: 100%;
+    }
+    body{
+      text-align: center;
+    }
+    button{
+      background-color: black;
+      color: white;
+      border-radius: 5px;
+      margin: 5px;
+    }
+    button:hover{
+      cursor: pointer;
+      color: black;
+      background-color: bisque;
+    }
+    .brown{
+      background-color: brown;
+    }
+    .white{
+      color:white;
+    }
+    .kotak{
+      width: 25px;
+      height: 25px;
+      margin: 10px auto;
+    }
+    .merah{
+      background-color: red;
+    }
+    .hijau{
+      background-color: green;
+    }
+    .biru{
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>playing with colors</h1>
+  <button type="button">Button</button>
+
+  <br><br>
+
+  <div class="kotak merah"></div>
+
+  <input type="range" name="merah" min="0" max="255"><br>
+
+  <div class="kotak hijau"></div>
+
+  <input type="range" name="hijau" min="0" max="255"><br>
+
+  <div class="kotak biru"></div>
+
+  <input type="range" name="biru" min="0" max="255">
+
+  <script src="js/script.js"></script>
+</body>
+</html>
