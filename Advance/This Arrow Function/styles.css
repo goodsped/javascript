@@ -1,0 +1,30 @@
+.box{
+    background-color: #ccc;
+    width: 100px;
+    height: 100px;
+    border:3px solid black;
+    text-align: center;
+    font-family: 'Rockwell';
+    transition: .3s width,
+                .3s height .3s,
+                .3s margin-top .3s,
+                .3s background-color;
+}
+
+.size{
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+}
+
+button{
+    transition: all 0.3s;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.caption {
+    background-color: brown;
+}
